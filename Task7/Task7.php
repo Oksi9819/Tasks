@@ -8,34 +8,25 @@ use Exception;
 
 class Task7
 {
-    private $arrToEdit = array();
-
-    public function __construct(array $arrToEdit)
-    {
-        $this->setArrToEdit($arrToEdit);
-    }
-
-    /**
-     * @param array $arrToEdit
-     */
-    public function setArrToEdit(array $arrToEdit): void
-    {
-        $this->arrToEdit = $arrToEdit;
-    }
-
     /**
      * @throws Exception
      */
-    public function main(int $position):void
+    public function main(array $arr, int $position):void
     {
-        if($position<count($this->arrToEdit)+1 && $position>0)
+        if($position<count($arr)+1 && $position>0)
         {
-            for ($i=$position-1; $i<count($this->arrToEdit)-$position+1; $i++)
+            for ($i=$position-1; $i<count($arr)-$position+1; $i++)
             {
-                $this->arrToEdit[$i] = $this->arrToEdit[$i+1];
-                $this->arrToEdit[$i+1]=$this->arrToEdit[$i+2];
+                $arr[$i+1]=$arr[$i+2];
             }
-            unset($this->arrToEdit[count($this->arrToEdit)-1]);
+            unset($arr[count($arr)-1]);
+            echo "$arr = [";
+            for ($i=0; $i<count($arr)-1; $i++)
+            {
+                echo $arr[$i].", ";
+            }
+            echo $arr[count($arr)-1]."];";
+            print_r($arr);
         }else throw new Exception("Значение позиции элемента не может быть больше кол-ва элементов и меньше 1.");
     }
 }
