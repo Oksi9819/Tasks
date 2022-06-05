@@ -8,21 +8,10 @@ use Exception;
 
 class Task9
 {
-    private $arrToEdit;
-
     /**
      * @throws Exception
      */
-    public function __construct(array $arr)
-    {
-        $this->setArrToEdit($arr);
-    }
-
-    /**
-     * @param array $arr
-     * @throws Exception
-     */
-    public function setArrToEdit(array $arr): void
+    public function main(array $arr, int $number): void
     {
         $b=[];
         for ($i = 0; $i < count($arr); $i++)
@@ -34,24 +23,13 @@ class Task9
         }
         if (count($arr)===count($b))
         {
-            $this->arrToEdit = $arr;
-        }else throw new Exception('Массив может состоять только из целых чисел');
-    }
-
-    public function main(int $number): array
-    {
-            $arr=$this->arrToEdit;
             $result=[];
             for ($i = 0; $i < count($arr) - 2; $i++) {
                 if ($arr[$i] + $arr[$i + 1] + $arr[$i + 2] === $number) {
                     array_push($result, "$arr[$i] + {$arr[$i+1]} + {$arr[$i+2]} = $number");
                 }
             }
-            return $result;
+            print_r($result);
+        }else throw new Exception('Массив может состоять только из целых чисел');
     }
 }
-
-try {
-    $test = new Task9([2, 7, 7, 1, 8, 2, 7, 8, 7]);
-    print_r($test->main(16));
-} catch (Exception $e) {echo $e->getMessage()."\n";}
