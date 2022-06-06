@@ -24,6 +24,7 @@ class Task10
                 }
                 array_push($result, $input);
             }
+
             print_r($result);
         }else throw new Exception('Можно использовать только положительные целые числа.');
     }
