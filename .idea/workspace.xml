@@ -1,49 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49496aca-6799-4385-a0d2-7f8b3a54a424" name="Default Changelist" comment="Replace gitignore">
-      <change beforePath="$PROJECT_DIR$/Task2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/.idea/Task2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/Task2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/.idea/Task3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/Task3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/.idea/Task4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Task4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task6/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task6/.idea/Task6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task6/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task6/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task6/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task6/Task6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/.idea/Task7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/Task7.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task8/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task8/.idea/Task8.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task8/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task8/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task8/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task8/Task8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task9/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task9/.idea/Task9.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task9/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task9/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task9/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task9/Task9.php" beforeDir="false" />
+    <list default="true" id="49496aca-6799-4385-a0d2-7f8b3a54a424" name="Default Changelist" comment="Update file">
+      <change beforePath="$PROJECT_DIR$/Task1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task1/Task1.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +119,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delete other tasks" />
